@@ -1,23 +1,83 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import Welcome from './3.props/Welcome';
+// import Counter from './4.state/Counter';
+// import Message from './4.state/Message';
+// import Person from './4.state/Person';
+// import ClassClick from './5.event-handling/ClassClick';
+// import EventBind from './5.event-handling/EventBind';
+// import FunctionClick from './5.event-handling/FunctionClick';
+// import Parent from './6.parent-child/Parent';
+// import UserGreetingFour from './7.conditional-rendering/UserGreetingFour';
+// import UserGreetingOne from './7.conditional-rendering/UserGreetingOne';
+// import UserGreetingThree from './7.conditional-rendering/UserGreetingThree';
+// import UserGreetingTwo from './7.conditional-rendering/UserGreetingTwo';
+// import NameList from './8.list-rendering/NameList';
+// import NameListOne from './8.list-rendering/NameListOne';
+import Form from './10.form-data/Form';
+import FormOne from './10.form-data/FormOne';
+// import NameListThree from './8.list-rendering/NameListThree';
+// import NameListTwo from './8.list-rendering/NameListTwo';
+// import InlineStyling from './9.styling/InlineStyling';
+// import Stylesheet from './9.styling/Stylesheet';
+// import StyleSheetOne from './9.styling/StylesheetOne';
+// import Greet from './1.components/1.function/Greet';
+// import { Named } from './1.components/1.function/Named';
+// import Welcome from './1.components/2.class/Welcome';
+// import Hello from './2.jsx/Hello';
+// import Greeting from './3.props/Greeting';
+// import GreetingOne from './3.props/GreetingOne';
+
+// import './9.styling/appStyle.css'
+// import styles from './9.styling/appStyle.module.css'
+// import StyleModule from './9.styling/StyleModule';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+      <FormOne />
+      {/* <Form /> */}
+      {/* <StyleModule />
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+      {/* <InlineStyling /> */}
+      {/* <StyleSheetOne /> */}
+      {/* <Stylesheet primary={false  } /> */}
+      {/* <NameListThree /> */}
+      {/* <NameListTwo /> */}
+      {/* <NameListOne /> */}
+      {/* <NameList /> */}
+      {/* <UserGreetingFour /> */}
+      {/* <UserGreetingThree /> */}
+      {/* <UserGreetingTwo /> */}
+      {/* <UserGreetingOne /> */}
+      {/* <Parent /> */}
+      {/* <EventBind /> */}
+      {/* <ClassClick /> */}
+      {/* <FunctionClick /> */}
+      {/* <Person /> */}
+      {/* <Message /> */}
+      {/* <Counter /> */}
+      {/* <Welcome name="Scott" skill="Manager">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is only for Scott
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </Welcome>
+      <Welcome name="Adam"  skill="Business Analyst"/>
+      <Welcome name="Tuan"  skill="Tech Lead"/> */}
+
+      {/* <Greeting name="Scott" skill="Manager">
+        <p>
+          This is only for Scott
+        </p>
+      </Greeting>
+      <Greeting name="Adam"  skill="Business Analyst"/>
+      <Greeting name="Tuan"  skill="Tech Lead"/>
+      <GreetingOne name="Uma" skill="Javscript"/> */}
+      {/* <Greet />
+      <Named />
+      <Welcome />
+      <Hello /> */}
     </div>
   );
 }
