@@ -13,8 +13,21 @@
 // import UserGreetingTwo from './7.conditional-rendering/UserGreetingTwo';
 // import NameList from './8.list-rendering/NameList';
 // import NameListOne from './8.list-rendering/NameListOne';
-import Form from './10.form-data/Form';
-import FormOne from './10.form-data/FormOne';
+// import Form from './10.form-data/Form';
+// import FormOne from './10.form-data/FormOne';
+// import LifeCycleParent from './11.life-cycle-methods/LifeCycleParent';
+// import Axios from './13.ajax-calls/Axios';
+// import Fetch from './13.ajax-calls/Fetch';
+// import FetchOne from './13.ajax-calls/FetchOne';
+import Api from './12.ajax-calls/Api';
+import Student from './12.ajax-calls/Student';
+import User from './12.ajax-calls/User';
+import Users from './12.ajax-calls/Users';
+import Routing from './13.routing/Routing';
+import ClassCounter from './14.hooks/ClassCounter';
+import HookCounter from './14.hooks/HookCounter';
+import HooksWithArray from './14.hooks/HooksWithArray';
+import HookUsingObject from './14.hooks/HookUsingObject';
 // import NameListThree from './8.list-rendering/NameListThree';
 // import NameListTwo from './8.list-rendering/NameListTwo';
 // import InlineStyling from './9.styling/InlineStyling';
@@ -34,8 +47,22 @@ import FormOne from './10.form-data/FormOne';
 
 function App() {
   return (
-    <div className="container">
-      <FormOne />
+    <div>
+      <HooksWithArray />
+      {/* <HookUsingObject /> */}
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <User /> */}
+      {/* <Student /> */}
+      {/* <Api /> */}
+      {/* <Users /> */}
+      {/* <FetchOne /> */}
+      {/* <Axios /> */}
+
+      {/* <Fetch /> */}
+      {/* <LifeCycleParent /> */}
+      {/* <FormOne /> */}
       {/* <Form /> */}
       {/* <StyleModule />
       <h1 className='error'>Error</h1>
